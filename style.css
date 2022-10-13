@@ -1,0 +1,76 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp2603464.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+	background-color: lightblue;
+}
+
+h2 {
+  font-family: Helvetica;
+  color: white;
+}
+
+h3 {
+  font-family: Helvetica;
+  color: white;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #444444;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: LightGray;
+}
+
+div {
+  width: 1250px;
+  padding: 10px;
+  border: 5px outset white;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #6a6a6a;
+  margin: 25px 50px 75px 100px;
+}
+.btn{
+transition: transform .5s;
+}
+
+btn:hover {
+transform: scale(3);
+}
+</style>
+</head>
+<body>
